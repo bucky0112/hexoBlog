@@ -159,7 +159,7 @@ sidebar:
   # Sidebar offset from top menubar in pixels (only for Pisces | Gemini).
   offset: 12
   # Enable sidebar on narrow view (only for Muse | Mist).
-  onmobile: false
+  onmobile: true
 
 # Sidebar Avatar
 avatar:
@@ -192,7 +192,7 @@ social:
 social_icons:
   enable: true
   icons_only: true
-  transition: false
+  transition: true
 
 # Blog rolls
 links_settings:
@@ -386,7 +386,7 @@ bookmark:
   color: "222"
   # If auto, save the reading progress when closing the page or clicking the bookmark-icon.
   # If manual, only save it by clicking the bookmark-icon.
-  save: auto
+  save: manual
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
