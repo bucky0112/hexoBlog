@@ -34,7 +34,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: googled36834cd638cf6e1
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -112,6 +112,10 @@ search:
   field: post
   format: html
   limit: 10000
+
+#Sitemap
+sitemap:
+  path: sitemap.xml
 
 #algolia:
   #applicationID: QRW927AOUA
