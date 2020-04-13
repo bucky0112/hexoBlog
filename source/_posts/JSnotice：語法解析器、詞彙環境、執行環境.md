@@ -2,6 +2,9 @@
 title: JS notice： 語法解析器、詞彙環境、執行環境
 tags:
   - javascript
+  - 語法解析器
+  - 詞彙環境
+  - 執行環境
 categories: JavaScript 的怪奇物語
 keywords:
   - javascript

@@ -4,7 +4,7 @@ tags:
   - function
   - 匿名函式
 date: 2020-04-11 11:29:52
-categories: JS基礎回顧
+categories: JS 基礎回顧
 keywords:
 - function
 - 函式宣告
