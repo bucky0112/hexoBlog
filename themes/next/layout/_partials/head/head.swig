@@ -1,3 +1,4 @@
+<meta name="google-site-verification" content="6QFO0xnuybw-G6Xb4Idq1AhwXfxCzYL8b7i9CIxU4mI" />
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="{{ theme.android_chrome_color }}">
