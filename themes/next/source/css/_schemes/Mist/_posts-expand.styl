@@ -2,7 +2,13 @@
 // --------------------------------------------------
 .posts-expand {
   &.index {
-    .post-title, .post-meta {
+    // 新增這一行把文章title改成置中對齊
+    .post-title {
+      text-align: center
+    }
+    // 如果要改回來的話，把下面的註解//刪掉就好 
+    //.post-title, 
+    .post-meta {
       text-align: $site-meta-text-align;
 
       +mobile() {
