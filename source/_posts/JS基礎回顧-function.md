@@ -33,12 +33,25 @@ sayhello()  // 印出'hi'
 一個宣告函式主要會包含三個部份：
 
 * 函式的名稱（或是可能沒有名稱）。
-* 括號 () 中的部份，是參數。
+* 小括號 () 中的部份是參數，可以帶入無限個。
 * 大括號 {} 中的部份，是主要區塊，放重複執行的內容。
+
+再看一個帶入參數的例子，如果想要得到正方形的面積的話，公式是邊長 x 邊長，所以在 function 中可以這樣寫：
+
+```
+function getSquareArea (side) {
+  var answer = side * side
+  console.log(answer)
+}
+
+getSquareArea(50)  // 引數帶入數值 50，答案得到 2500
+```
+
+當呼叫一個需要帶入資料的函式，像上面的例子，在函式名稱後的小括號 () 傳入使用的值，可以是變數或是數值，稱為**引數**。
 
 ### 回傳值
 
-在 function 中還可以使用 return 來取得回傳值，例如：
+在建立 function，如果希望透過呼叫後可以得到回應結果，可以透過 return 來取得回傳值，例如：
 
 ```
 function isPass (score) {
@@ -52,6 +65,29 @@ if (isPass(myTest)) {
 } else {
   console.log('不及格')    // 如果不是就印出不及格，最後結果是不及格
 }
+```
+
+再看一個例子，試著計算三角形的面積，公式是底 x 高 / 2，這次引數以變數方式帶入，所以可以這樣寫：
+
+```
+function getTriangleArea (base, height) {
+  return base * height * 0.5
+} 
+
+// 用變數帶入底10，高20
+var b = 10;
+var h = 20
+console.log(getTriangleArea (b, h)) // 得到答案 100
+```
+
+還可以重複使用：
+
+```
+var area1 = getTriangleArea (50, 60);
+var area2 = getTriangleArea (90, 200);
+
+console.log(area1); // 得到答案 1500
+console.log(area2)  // 得到答案 9000
 ```
 
 ## 匿名函式
