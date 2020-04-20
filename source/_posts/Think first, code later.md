@@ -2,9 +2,13 @@
 title: Think first, code later
 tags:
   - 先別急著寫 leetcode
+  - pseudo code
 date: 2020-04-03 22:45:39
 categories: 先別急著寫 leetcode 課程心得
-keywords: 先別急著寫 leetcode
+keywords: 
+- 先別急著寫 leetcode
+- pseudo code
+- 如何印出 1-100 的偶數
 decription: 先別急著寫 leetcode 課程心得
 ---
 
