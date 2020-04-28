@@ -1,5 +1,5 @@
 ---
-title: JS基礎回顧 - function
+title: JS 基礎回顧 - function
 tags:
   - function
   - 匿名函式
