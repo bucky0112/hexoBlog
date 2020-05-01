@@ -12,7 +12,7 @@ keywords:
 decription: Basic use about Vue.
 ---
 
-身為目前 3 大前端應用框架之一的 Vue.js，截至目前為止在 GitHub 已經累積 160k 的星星數，以下是個人淺薄的學習筆記。
+身為目前 3 大前端應用框架之一的 Vue.js，截至目前為止在 GitHub 已經累積 160k 的星星數，以下是個人的學習筆記。
 <!--more-->
 
 ## 開發環境
