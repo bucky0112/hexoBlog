@@ -19,7 +19,7 @@ decription: 關於物件與陣列的介紹
 ## 陣列 Array
 ---
 
-![Image](https://i.imgur.com/YVxUpqj.png)
+![](https://i.imgur.com/IIHLVfs.jpg)
 
 陣列的概念有點像放藥的盒子，一個蘿蔔一個坑。
 可以是零到多數元素的集合，可以放入資料，例如數字、文字，或是陣列、物件、函式，沒有規定只能放什麼進去。
