@@ -19,9 +19,11 @@ decription: 使用 Vue 做出一個簡易的 TodoList
 ---
 很多教學都會試著做出 TodoList 來驗收自己學習的成果，這篇文章也不免俗的將會運用目前學到的 Vue 技術，做出一個簡易的 TodoList。 
 <!--more-->
+
+使用 Vue 來做 TodoList 真的蠻方便的，以前我覺得做這個好麻煩，用了 Vue 來做快上不少。
 話不多說，先看成果：
 
-<script async src="//jsfiddle.net/bucky0112/kytLuw6g/135/embed/js,html,css,result/dark/"></script>
+<iframe width="100%" height="300" src="//jsfiddle.net/bucky0112/dcg2jzs4/5/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ## 建立 Vue 環境
 ---
