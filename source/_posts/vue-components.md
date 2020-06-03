@@ -6,7 +6,7 @@ tags:
   - w3HexSchool
   - prop
   - x-template
-date: 2020-05-27 22:01:07
+date: 2020-06-01 22:01:07
 categories: vue
 keywords:
   - vue

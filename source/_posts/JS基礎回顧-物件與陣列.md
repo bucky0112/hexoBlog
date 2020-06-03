@@ -179,6 +179,27 @@ console.log(batman['tools']);     // '蝙蝠車'
 console.log(batman['skills'])     // ["有錢", "潛行", "格鬥技", "解謎能力"]
 ```
 
+### 物件刪除
+
+如果想刪除某個屬性的話，就可以使用 `delete`，例如想刪除掉 age 的話，下面兩種方式都可以：
+
+```
+delete batman.age;
+delete batman['age'];
+
+console.log(batman)
+```
+
+所以出來的結果，就會只剩下 name 跟 skills
+
+### 如何取得物件的屬性？
+
+如果想取得屬性的話，可以使用 `Object.keys(obj)`，例如：
+
+```
+console.log(Object.keys(batman)) // 得到 ["name", "skills", "age"]
+```
+
 ### 物件可以怎麼運用？
 
 前面陣列提到，幾乎什麼資料都可以放。
