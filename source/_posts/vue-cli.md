@@ -8,8 +8,8 @@ tags:
 date: 2020-05-18 22:01:47
 categories: vue
 keywords:
-- vue cli
-- node.js
+  - vue cli
+  - node.js
 decription: Vue CLI 介紹與環境建置，以及建置專案。
 ---
 Vue CLI 介紹與環境建置，以及建置專案。
